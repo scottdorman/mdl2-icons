@@ -237,7 +237,8 @@ section {
     letter-spacing: normal;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
-    margin-left: 20px; }
+    margin-left: 20px;
+    color: inherit; }
 
 .jumbotron-icon .info-icons {
   font-size: 14px; }
