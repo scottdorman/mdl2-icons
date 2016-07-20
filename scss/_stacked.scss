@@ -1,0 +1,22 @@
+@import "variables";
+
+// Stacked Icons
+// -------------------------
+
+.#{$mdl2-css-prefix}-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+}
+.#{$mdl2-css-prefix}-stack-1x, .#{$mdl2-css-prefix}-stack-2x {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.#{$mdl2-css-prefix}-stack-1x { line-height: inherit; }
+.#{$mdl2-css-prefix}-stack-2x { font-size: 2em; }
+.#{$mdl2-css-prefix}-inverse { color: $mdl2-inverse; }

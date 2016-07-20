@@ -1,0 +1,20 @@
+{
+  "name": "mdl2-icons",
+  "repo": "scottdorman/mdl2-icons",
+  "description": "The MDL2 iconic font and CSS framework",
+  "version": "1.0.0",
+  "keywords": ["font", "mdl2", "windows10", "icon", "bootstrap"],
+  "dependencies": {},
+  "development": {},
+  "styles": [
+    "css/mdl2-icons.css"
+  ],
+  "fonts": [
+    "fonts/mdl2.eot",
+    "fonts/mdl2.svg",
+    "fonts/mdl2.ttf",
+    "fonts/mdl2.woff",
+    "fonts/mdl2.woff2",
+    "fonts/mdl2.otf"
+  ]
+}

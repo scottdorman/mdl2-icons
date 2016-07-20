@@ -1,0 +1,14 @@
+@import "variables";
+
+// Base Class Definition
+// -------------------------
+
+.#{$mdl2-css-prefix} {
+  display: inline-block;
+  font: normal normal normal #{$mdl2-font-size-base}/#{$mdl2-line-height-base} MDL2; // shortening font declaration
+  font-size: inherit; // can't have font-size inherit on line above, so need to override
+  text-rendering: auto; // optimizelegibility throws things off #1094
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}

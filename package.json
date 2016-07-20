@@ -1,0 +1,21 @@
+{
+  "name": "mdl2-icons",
+  "description": "The MDL2 iconic font and CSS framework",
+  "version": "1.0.0",
+  "style": "css/mdl2-icons.css",
+  "keywords": ["font", "mdl2", "windows10", "icon", "bootstrap"],
+  "homepage": "http://mdl2-icons.io/",
+  "bugs": {
+    "url" : "http://github.com/scottdorman/mdl2-icons/issues"
+  },
+  "author": {
+    "name": "Scott Dorman",
+    "web": "http://scottdorman.azurewebsites.net"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scottdorman/mdl2-icons.git"
+  },
+  "dependencies": {
+  }
+}

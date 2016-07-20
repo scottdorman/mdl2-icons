@@ -1,0 +1,14 @@
+/* FONT PATH
+ * -------------------------- */
+
+@font-face {
+  font-family: 'MDL2';
+  src: url('#{$mdl2-font-path}/mdl2.eot?v=#{$mdl2-version}');
+  src: url('#{$mdl2-font-path}/mdl2.eot?#iefix&v=#{$mdl2-version}') format('embedded-opentype'),
+    url('#{$mdl2-font-path}/mdl2.woff2?v=#{$mdl2-version}') format('woff2'),
+    url('#{$mdl2-font-path}/mdl2.woff?v=#{$mdl2-version}') format('woff'),
+    url('#{$mdl2-font-path}/mdl2.ttf?v=#{$mdl2-version}') format('truetype'),
+    url('#{$mdl2-font-path}/mdl2.svg?v=#{$mdl2-version}#mdl2regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

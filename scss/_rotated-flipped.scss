@@ -1,0 +1,23 @@
+@import "variables";
+@import "mixins";
+
+// Rotated & Flipped Icons
+// -------------------------
+
+.#{$mdl2-css-prefix}-rotate-90  { @include mdl2-icon-rotate(90deg, 1);  }
+.#{$mdl2-css-prefix}-rotate-180 { @include mdl2-icon-rotate(180deg, 2); }
+.#{$mdl2-css-prefix}-rotate-270 { @include mdl2-icon-rotate(270deg, 3); }
+
+.#{$mdl2-css-prefix}-flip-horizontal { @include mdl2-icon-flip(-1, 1, 0); }
+.#{$mdl2-css-prefix}-flip-vertical   { @include mdl2-icon-flip(1, -1, 2); }
+
+// Hook for IE8-9
+// -------------------------
+
+:root .#{$mdl2-css-prefix}-rotate-90,
+:root .#{$mdl2-css-prefix}-rotate-180,
+:root .#{$mdl2-css-prefix}-rotate-270,
+:root .#{$mdl2-css-prefix}-flip-horizontal,
+:root .#{$mdl2-css-prefix}-flip-vertical {
+  filter: none;
+}

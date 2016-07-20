@@ -1,0 +1,23 @@
+@import "variables";
+
+// Bordered & Pulled
+// -------------------------
+
+.#{$mdl2-css-prefix}-border {
+  padding: .2em .25em .15em;
+  border: solid .08em $mdl2-border-color;
+  border-radius: .1em;
+}
+
+.#{$mdl2-css-prefix}-pull-left { float: left; }
+.#{$mdl2-css-prefix}-pull-right { float: right; }
+
+.#{$mdl2-css-prefix} {
+  &.#{$mdl2-css-prefix}-pull-left { margin-right: .3em; }
+  &.#{$mdl2-css-prefix}-pull-right { margin-left: .3em; }
+}
+
+.#{$mdl2-css-prefix} {
+  &.pull-left { margin-right: .3em; }
+  &.pull-right { margin-left: .3em; }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "mdl2-icons",
+  "description": "The MDL2 iconic font and CSS framework",
+  "keywords": ["font", "mdl2", "windows10", "icon", "bootstrap"],
+  "homepage": "http://mdl2-icons.io/",
+  "dependencies": {},
+  "devDependencies": {},
+  "main": [
+    "scss/mdl2-icons.scss"
+  ],
+  "ignore": [
+    "*/.*",
+    "*.json",
+    "src",
+    "*.yml",
+    "Gemfile",
+    "Gemfile.lock",
+    "*.md"
+  ]
+}
