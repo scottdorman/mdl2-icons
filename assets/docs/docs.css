@@ -231,6 +231,49 @@ section {
   color: #fff;
   margin-bottom: 0; }
 
+.jumbotron-icon {
+  padding: 30px 0 25px;
+  background-color: #eeeeee;
+  color: #222222;
+  border-bottom-color: #d1d1d1;
+  border-top-color: #f7f7f7; }
+  .jumbotron-icon, .jumbotron-icon h1 {
+    text-shadow: 0 1px 0 #fff; }
+  .jumbotron-icon h1 {
+    color: #222222;
+    margin-top: 22px; }
+    .jumbotron-icon h1 small {
+      letter-spacing: normal;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      margin-left: 20px; }
+  .jumbotron-icon .info-icons {
+    font-size: 14px; }
+  .jumbotron-icon .info-details {
+    float: left; }
+    .jumbotron-icon .info-details p {
+      margin: 25px 0;
+      font-weight: bold; }
+    .jumbotron-icon .info-details .dl-horizontal dt {
+      width: 80px; }
+    .jumbotron-icon .info-details .dl-horizontal dd {
+      margin-left: 95px; }
+  .jumbotron-icon .fa-2 {
+    font-size: 2em; }
+  .jumbotron-icon .fa-3 {
+    font-size: 4em; }
+  .jumbotron-icon .fa-4 {
+    font-size: 7em; }
+  .jumbotron-icon .fa-5 {
+    font-size: 12em; }
+  .jumbotron-icon .fa-6 {
+    font-size: 20em; }
+  .jumbotron-icon .fa-1, .jumbotron-icon .fa-2, .jumbotron-icon .fa-3, .jumbotron-icon .fa-4, .jumbotron-icon .fa-5, .jumbotron-icon .fa-6 {
+    margin-right: 1/14em; }
+
+h1.info-class {
+  font-size: 30px; }
+
 .jumbotron-carousel {
   background-color: #0078d7;
   padding-top: 40px;
