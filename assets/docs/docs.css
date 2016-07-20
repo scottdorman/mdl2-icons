@@ -258,17 +258,17 @@ section {
       width: 80px; }
     .jumbotron-icon .info-details .dl-horizontal dd {
       margin-left: 95px; }
-  .jumbotron-icon .fa-2 {
+  .jumbotron-icon .mdl2-2 {
     font-size: 2em; }
-  .jumbotron-icon .fa-3 {
+  .jumbotron-icon .mdl2-3 {
     font-size: 4em; }
-  .jumbotron-icon .fa-4 {
+  .jumbotron-icon .mdl2-4 {
     font-size: 7em; }
-  .jumbotron-icon .fa-5 {
+  .jumbotron-icon .mdl2-5 {
     font-size: 12em; }
-  .jumbotron-icon .fa-6 {
+  .jumbotron-icon .mdl2-6 {
     font-size: 20em; }
-  .jumbotron-icon .fa-1, .jumbotron-icon .fa-2, .jumbotron-icon .fa-3, .jumbotron-icon .fa-4, .jumbotron-icon .fa-5, .jumbotron-icon .fa-6 {
+  .jumbotron-icon .mdl2-1, .jumbotron-icon .mdl2-2, .jumbotron-icon .mdl2-3, .jumbotron-icon .mdl2-4, .jumbotron-icon .mdl2-5, .jumbotron-icon .mdl2-6 {
     margin-right: 1/14em; }
 
 h1.info-class {
