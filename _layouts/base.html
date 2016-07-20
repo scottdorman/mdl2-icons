@@ -1,0 +1,28 @@
+﻿<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="MDL2">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="{{ page.relative_path }}assets/ico/favicon.png">
+    <title>{% if page.title %}{{ page.title }}{% endif %}</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ page.relative_path }}assets/docs/docs.min.css">
+    <link rel="stylesheet" href="{{ page.relative_path }}assets/mdl2-icons/css/mdl2-icons.min.css">
+</head>
+<body class="{{ page.view_class }}">
+    <div id="wrap">
+        <!-- necessary for sticky footer. wrap all content except footer -->
+        {% include navbar.html %}
+        {{ content }}
+    </div>
+    {% include footer.html %}
+
+    <script src="https://platform.twitter.com/widgets.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/{{ site.jquery.version }}/jquery.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/{{ site.jquery_validate.version }}/jquery.validate.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/{{ site.bootstrap.version }}/js/bootstrap.min.js"></script>
+</body>
+</html>

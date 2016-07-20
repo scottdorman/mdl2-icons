@@ -1,0 +1,44 @@
+baseurl:          /mdl2-icons/  # Where GitHub serves the project up from
+
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Permalinks
+permalink:        pretty
+
+kramdown:
+  input: GFM
+
+mdl2icons:
+  version:        1.0.0
+  minor_version:  1.0
+  major_version:  1
+  doc_blob:       v1.0.0
+  url:            http://scottdorman.github.io/mdl2-icons
+  tagline:        The MDL2 iconic font and CSS toolkit
+  css_prefix:     mdl2
+  author:
+    name:         Scott Dorman
+    twitter:      sdorman
+    github:       scottdorman
+    url:          http://scottdorman.azurewebsites.net
+  github:
+    url:          https://github.com/scottdorman/mdl2-icons
+
+bootstrap:
+  version:        3.3.5
+  url:            http://getbootstrap.com
+
+jquery:
+  version:        1.11.3
+
+jquery_validate:
+  version:        1.13.1
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME

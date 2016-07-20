@@ -1,0 +1,22 @@
+---
+layout: base
+title: The MDL2 Icons Community
+navbar_active: community
+relative_path: ../
+---
+{% capture jumbotron_h1 %}<i class="mdl2 mdl2-like" aria-hidden="true"></i>&nbsp; Community{% endcapture %}
+{% capture jumbotron_p %}Lots of ways to get involved with MDL2 Icons{% endcapture %}
+
+{% include jumbotron.html %}
+{% include stripe-social.html %}
+
+<div class="container">
+  <p class="lead">
+    MDL2 Icons has a vibrant community of folks helping each other out. You can
+    <a href="#reporting-bugs">report bugs</a>, and
+    <a href="#submitting-pull-requests">submit pull requests</a>.
+  </p>
+
+  {% include community/reporting-bugs.html %}
+  {% include community/submitting-pull-requests.html %}
+</div>

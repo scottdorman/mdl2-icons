@@ -1,0 +1,25 @@
+---
+layout: base
+title: MDL2 Icons Icons
+navbar_active: icons
+relative_path: ../
+---
+{% capture jumbotron_h1 %}<i class="mdl2 mdl2-browse-photos" aria-hidden="true"></i>&nbsp; The Icons{% endcapture %}
+{% capture jumbotron_p %}The complete set of icons in MDL2 Icons {{ site.mdl2icons.version }}{% endcapture %}
+
+{% include jumbotron.html %}
+{% include stripe-social.html %}
+
+<div class="container" data-view="search">
+    <div id="icons">
+        {% include icons/app-bar-glyphs.html %}
+        {% include icons/back-buttons.html %}
+        {% include icons/battery-icons.html %}
+        {% include icons/checkbox-components.html %}
+        {% include icons/hearts.html %}
+        {% include icons/miscellaneous.html %}
+        {% include icons/rating-stars.html %}
+        {% include icons/scroll-bar-arrows.html %}
+
+    </div>
+</div>

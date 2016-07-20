@@ -1,0 +1,79 @@
+---
+layout: base
+title: Get Started with MDL2 Icons
+navbar_active: get-started
+view_class: v-get-started
+relative_path: ../
+---
+{% capture jumbotron_h1 %}<i class="mdl2 mdl2-cog" aria-hidden="true"></i>&nbsp; Get Started{% endcapture %}
+{% capture jumbotron_p %}Easy ways to get MDL2 Icons {{ site.mdl2-icons.version }} onto your website{% endcapture %}
+
+{% include jumbotron.html %}
+
+<div class="content-underlay"></div>
+
+<div class="container">
+  <section class="get-started-download" id="get-started-download">
+    <h2 class="page-header clearfix">
+      Download &amp; Customize
+      <span class="label label-default text-base pull-right">Easy</span>
+    </h2>
+
+    <div class="row">
+      <div class="col-md-9">
+        <p class="text-lg">
+          Want to manage and host MDL2 Icons assets yourself? You can
+          <a href="#modal-download" data-toggle="modal">download</a>,
+          customize, and use the icons and default styling manually. Both CSS and CSS Preprocessor (Sass and Less) formats are included.</p>
+      </div>
+
+      <div class="col-md-3">
+        <a class="btn btn-default btn-lg btn-block" href="#modal-download">
+          <i class="mdl2 mdl2-download mdl2-lg margin-right-sm"></i>
+          Download
+        </a>
+      </div>
+    </div>
+    <div class="download-css margin-bottom-xl" id="download-css">
+      <h3>Using CSS</h3>
+
+      <ol>
+        <li>Copy the entire <code>mdl2-icons</code> directory into your project.</li>
+        <li>
+          In the <code>&lt;head&gt;</code> of your html, reference the location to your mdl2-icons.min.css.
+{% highlight html %}
+<link rel="stylesheet" href="path/to/mdl2-icons/css/mdl2-icons.min.css">
+{% endhighlight %}
+        </li>
+      </ol>
+    </div>
+
+    <div class="download-preprocessors" id="download-preprocessors">
+      <h3>Using Sass</h3>
+
+      <p>Use this method to customize Font Awesome {{ site.mdl2icons.version }} using SASS.</p>
+      <ol>
+        <li>Copy the <code>mdl2-icons</code> directory into your project.</li>
+        <li>
+          Open your project's <code>mdl2-icons/scss/_variables.scss</code> and edit the <code>$mdl2-font-path</code>
+          variable to point to your font directory.
+{% highlight scss %}
+$mdl2-font-path:   "../font";
+{% endhighlight %}
+          <p class="alert alert-success"><i class="fa fa-info-circle"></i> The font path is relative from your compiled CSS directory.</p>
+        </li>
+        <li>Re-compile your SASS if using a static compiler. Otherwise, you should be good to go.</li>
+       </ol>
+    </div>
+  </section>
+
+  <section class="get-started-more margin-top-lg" id="get-started-more">
+    <h2 class="page-header">Browser and device support</h2>
+    <p>
+      MDL2 Icons are built to work best in the latest desktop and mobile browsers, 
+      meaning older browsers might display differently styled, though fully functional,
+      renderings of certain components.
+    </p>
+    <p>For more information, please see <a href="http://getbootstrap.com/getting-started/#support">Browser and device support</a> by the <a href="http://getbootstrap.com/about/#team">Bootstrap Team</a>.</p>
+  </section>
+</div>
